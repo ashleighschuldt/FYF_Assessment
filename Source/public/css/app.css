@@ -1,0 +1,48 @@
+body {
+    background: #666;
+}
+#login,
+#dashboard,
+#images {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+#dashboard button {
+    margin-top: 25px;
+}
+#images a {
+    margin-bottom: 25px;
+}
+#header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #17a2b8;
+}
+#header .header_links {
+    display: flex;
+    justify-content: flex-end;
+}
+#header .header_links a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+#header .header_links a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+.modal-dialog {
+    overflow: visible;
+    min-height: 100%;
+    width: 100%;
+    max-width: 80%;
+}
+.button_sort {
+    margin-bottom: 50px;
+}
+.images:hover {
+    cursor: pointer;
+}
